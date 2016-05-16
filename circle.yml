@@ -2,3 +2,8 @@ machine:
   java:
     version: openjdk8
     version: oraclejdk8
+deployment:
+  releases:
+    branch: master
+    commands:
+      - mvn deploy
