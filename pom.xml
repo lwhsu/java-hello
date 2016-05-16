@@ -3,7 +3,7 @@
 
   <groupId>org.lwhsu.test</groupId>
   <artifactId>hello</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4</version>
   <packaging>jar</packaging>
 
   <name>hello</name>
@@ -22,8 +22,9 @@
 
   <distributionManagement>
     <repository>
-        <id>bintray</id>
-        <url>https://api.bintray.com/maven/lwhsu/maven/hello</url>
+        <id>bintray-lwhsu-maven</id>
+        <name>lwhsu-maven</name>
+        <url>https://api.bintray.com/maven/lwhsu/maven/hello/;publish=1</url>
     </repository>
   </distributionManagement>
 
