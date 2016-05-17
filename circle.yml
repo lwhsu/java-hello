@@ -6,4 +6,5 @@ deployment:
   releases:
     branch: master
     commands:
-      - mvn -s settings.xml deploy
+      - mvn -B release:clean release:prepare
+      - mvn -B -s settings.xml release:perform
