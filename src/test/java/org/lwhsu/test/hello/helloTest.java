@@ -10,4 +10,9 @@ public class helloTest {
     public void testHello() {
         Assert.assertEquals(Hello.hello(), "Hello World!");
     }
+
+    @Test
+    public void testHelloJon() {
+        Assert.assertEquals(Hello.hello("Jon"), "Hello Jon!");
+    }
 }
